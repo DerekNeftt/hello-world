@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Mi Pagina</title>
+
+  <style type="text/css">
+  body {
+    background: #81CAF9;
+    font-family: arial;
+  }
+  p {
+    background: #555;
+    color: white;
+    padding: 10px; <Orden del padding: Arriba Derecha Abajo Izquierda>
+    <Si solo de pone un valor se aplica para todos>
+  }
+  .secundario {
+    background: none;
+    color: #4840AB;
+    <Se creo una clase en la cual todo lo que se clasifique con "secundario" se van
+    a aplicar los parametros establecidos>
+  }
+  </style>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+</head>
+
+<body>
+  <Tipos de encabezados:>
+  <h1>Grande</h1>
+  <h2>Semi-Grande</h2>
+  <h3>Regular</h3>
+
+<Texto normal del cuerpo de la web:>
+  Hola mundo! <strong>:v</strong> <br>
+  Mi nombre es <em>Derek Marquez</em><br>
+  <br><img src="img1.jpg" width="100" height="100" alt="Describe la imagen"/>
+  <br><a href="http://www.youtube.com/derekneftt">Mi Youtube</a>
+
+<Separacion por parrafos:>
+<p>
+  Texto ejemplo para separar en parrafos
+</p>
+<p class="secundario">
+  El texto se crea su propio espacio entre cada parrafo
+</p>
+
+<Crear listas:>
+<ul>
+  <li>Objeto 1</li>
+  <li>Objeto 2</li>
+</ul>
+
+<ol>
+  <li>Objeto 1</li>
+  <li>Objeto 2</li>
+</ol>
+
+<table border="2">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Edad</th>
+      <th>Altura</th>
+      <th>Localizacion</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Derek Marquez</td>
+      <td>14</td>
+      <td>1.70</td>
+      <td>Tijuana, MX</td>
+    </tr>
+  </table>
+
+  <br><div class="contenedor-formulario">
+    <div class="wrap">
+      <form action="" class="formulario" name="formulario_registro" method="get">
+        <div>
+          <div class="input-group">
+            <input type="text" id="nombre" name="nombre">
+            <label class="label" for="nombre">Nombre:</label>
+          </div>
+          <div class="input-group">
+            <input type="email" id="correo" name="correo">
+            <label class="label" for="correo">Correo:</label>
+          </div>
+          <div class="input-group">
+            <input type="password" id="pass" name="pass">
+            <label class="label" for="pass">Contraseña:</label>
+          </div>
+          <div class="input-group">
+            <input type="password" id="pass2" name="pass2">
+            <label class="label" for="pass2">Repetir Contraseña:</label>
+          </div>
+          <div class="input-group radio">
+            <input type="radio" name="sexo" id="hombre" value="Hombre">
+            <label for="hombre">Hombre</label>
+            <input type="radio" name="sexo" id="mujer" value="Mujer">
+            <label for="mujer">Mujer</label>
+          </div>
+          <div class="input-group checkbox">
+            <input type="checkbox" name="terminos" id="terminos" value="true">
+            <label for="terminos">Acepto los Terminos y Condiciones</label>
+          </div>
+
+          <input type="submit" id="btn-submit" value="Enviar">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <section class="seccionToggle">
+  		<div class="wrap">
+  			<h2>Lorem ipsum dolor sit amet.</h2>
+  			<p>Lorem ipsum dolor sit amet, consectetur.</p>
+  			<button>Go!</button>
+  		</div>
+  	</section>
+
+  	<a href="#" id="btn-toggle" class="btn-toggle">Abrir</a>
+
+  	<div class="main">
+  		<div class="wrap">
+  			<article>
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  			</article>
+  			<article>
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  			</article>
+  		</div>
+  	</div>
+
+ </body>
+
+</html>
